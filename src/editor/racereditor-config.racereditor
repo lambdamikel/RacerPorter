@@ -1,0 +1,24 @@
+Forward Word
+Control-Right
+
+Backward Word
+Control-Left
+
+Forward Form
+Meta-Right
+
+Backward Form
+Meta-Left
+
+Beginning of Line
+Home
+
+End of Line
+End
+
+Beginning of Buffer
+Control-Home
+
+End of Buffer
+Control-End
+

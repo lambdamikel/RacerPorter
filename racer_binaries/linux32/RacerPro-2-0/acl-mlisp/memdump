@@ -1,0 +1,52 @@
+Mappings from /proc/self/maps:
+08048000-0804c000 r-xp 00000000 08:04 1575605    /home/mi.wessel/racer/app/RacerPro-2-0-Preview-2013-06-16/linux32/RacerPro-2-0/acl-mlisp/RacerPro
+0804c000-0804d000 rw-p 00003000 08:04 1575605    /home/mi.wessel/racer/app/RacerPro-2-0-Preview-2013-06-16/linux32/RacerPro-2-0/acl-mlisp/RacerPro
+0804d000-08072000 rw-p 00000000 00:00 0          [heap]
+20000000-2191a000 rwxp 00014000 08:04 1576068    /home/mi.wessel/racer/app/RacerPro-2-0-Preview-2013-06-16/linux32/RacerPro-2-0/acl-mlisp/RacerPro.dxl
+2191a000-2191c000 rwxp 00000000 00:00 0 
+2191c000-2235a000 rwxp 0192e000 08:04 1576068    /home/mi.wessel/racer/app/RacerPro-2-0-Preview-2013-06-16/linux32/RacerPro-2-0/acl-mlisp/RacerPro.dxl
+2235a000-22382000 rwxp 00000000 00:00 0 
+22382000-22a00000 rwxp 0236c000 08:04 1576068    /home/mi.wessel/racer/app/RacerPro-2-0-Preview-2013-06-16/linux32/RacerPro-2-0/acl-mlisp/RacerPro.dxl
+22a00000-22a02000 rwxp 00000000 00:00 0 
+22a02000-22bfc000 rwxp 029ea000 08:04 1576068    /home/mi.wessel/racer/app/RacerPro-2-0-Preview-2013-06-16/linux32/RacerPro-2-0/acl-mlisp/RacerPro.dxl
+22bfc000-22c02000 rwxp 00000000 00:00 0 
+22c02000-22d00000 rwxp 02be4000 08:04 1576068    /home/mi.wessel/racer/app/RacerPro-2-0-Preview-2013-06-16/linux32/RacerPro-2-0/acl-mlisp/RacerPro.dxl
+22d00000-22d02000 rwxp 00000000 00:00 0 
+22d02000-22eee000 rwxp 02ce2000 08:04 1576068    /home/mi.wessel/racer/app/RacerPro-2-0-Preview-2013-06-16/linux32/RacerPro-2-0/acl-mlisp/RacerPro.dxl
+22eee000-80032000 rwxp 00000000 00:00 0 
+a0000000-a00e6000 rwxp 02eda000 08:04 1576068    /home/mi.wessel/racer/app/RacerPro-2-0-Preview-2013-06-16/linux32/RacerPro-2-0/acl-mlisp/RacerPro.dxl
+a00e6000-a033e000 rwxp 00000000 00:00 0 
+b73b3000-b73c8000 r-xp 00000000 08:03 2362729    /lib/libz.so.1.2.5
+b73c8000-b73c9000 r--p 00014000 08:03 2362729    /lib/libz.so.1.2.5
+b73c9000-b73ca000 rw-p 00015000 08:03 2362729    /lib/libz.so.1.2.5
+b73ef000-b742e000 r--p 00000000 08:03 1186950    /usr/lib/locale/de_DE.utf8/LC_CTYPE
+b742e000-b7436000 r-xp 00000000 08:03 2359669    /lib/librt-2.11.3.so
+b7436000-b7437000 r--p 00007000 08:03 2359669    /lib/librt-2.11.3.so
+b7437000-b7438000 rw-p 00008000 08:03 2359669    /lib/librt-2.11.3.so
+b7438000-b74b8000 r-xp 00000000 08:04 1576069    /home/mi.wessel/racer/app/RacerPro-2-0-Preview-2013-06-16/linux32/RacerPro-2-0/acl-mlisp/libacli8218.so
+b74b8000-b74c1000 rw-p 0007f000 08:04 1576069    /home/mi.wessel/racer/app/RacerPro-2-0-Preview-2013-06-16/linux32/RacerPro-2-0/acl-mlisp/libacli8218.so
+b74c1000-b756b000 rw-p 00000000 00:00 0 
+b756b000-b76d1000 r-xp 00000000 08:03 2359640    /lib/libc-2.11.3.so
+b76d1000-b76d2000 ---p 00166000 08:03 2359640    /lib/libc-2.11.3.so
+b76d2000-b76d4000 r--p 00166000 08:03 2359640    /lib/libc-2.11.3.so
+b76d4000-b76d5000 rw-p 00168000 08:03 2359640    /lib/libc-2.11.3.so
+b76d5000-b76d8000 rw-p 00000000 00:00 0 
+b76d8000-b76db000 r-xp 00000000 08:03 2359645    /lib/libdl-2.11.3.so
+b76db000-b76dc000 r--p 00002000 08:03 2359645    /lib/libdl-2.11.3.so
+b76dc000-b76dd000 rw-p 00003000 08:03 2359645    /lib/libdl-2.11.3.so
+b76dd000-b7705000 r-xp 00000000 08:03 2359647    /lib/libm-2.11.3.so
+b7705000-b7706000 r--p 00027000 08:03 2359647    /lib/libm-2.11.3.so
+b7706000-b7707000 rw-p 00028000 08:03 2359647    /lib/libm-2.11.3.so
+b7707000-b771e000 r-xp 00000000 08:03 2359665    /lib/libpthread-2.11.3.so
+b771e000-b771f000 r--p 00016000 08:03 2359665    /lib/libpthread-2.11.3.so
+b771f000-b7720000 rw-p 00017000 08:03 2359665    /lib/libpthread-2.11.3.so
+b7720000-b7722000 rw-p 00000000 00:00 0 
+b773c000-b7740000 rw-p 00000000 00:00 0 
+b7740000-b7747000 r--s 00000000 08:03 922289     /usr/lib/gconv/gconv-modules.cache
+b7747000-b7748000 rw-p 00000000 00:00 0 
+b7748000-b7767000 r-xp 00000000 08:03 2359634    /lib/ld-2.11.3.so
+b7767000-b7768000 r--p 0001e000 08:03 2359634    /lib/ld-2.11.3.so
+b7768000-b7769000 rw-p 0001f000 08:03 2359634    /lib/ld-2.11.3.so
+bfb59000-bfc27000 rwxp 00000000 00:00 0          [stack]
+bfc27000-bfc28000 rw-p 00000000 00:00 0 
+ffffe000-fffff000 r-xp 00000000 00:00 0          [vdso]
