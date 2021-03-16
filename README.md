@@ -7,7 +7,7 @@ Reasoners
 
 This is the source code of RacerPorter. RacerPorter (aka "Sirius") was
 the default GUI to the RacerPro Description Logic & OWL reasoner.
-RacerPro allows you to connect to and manage RacerPro / Racer servers,
+RacerPorter allows you to connect to and manage RacerPro / Racer servers,
 load knowledge bases (KBs) and OWL ontologies into them, invoke
 reasoning services, browse and visualize KBs and ontologies, author
 KBs, etc. At one point, we coined the term **OBIT - Ontology Browsing
