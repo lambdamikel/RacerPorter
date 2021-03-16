@@ -24,7 +24,15 @@ Racer-specific functionality (e.g.,
 [MiDeLoRa](https://github.com/lambdamikel/MiDeLoRa)].
 
 RacerPorter was last successfully tested with LispWorks 6.1 & CAPI on
-Windows 10, 64bit, in March 2021.
+Windows 10, 64bit, in March 2021. 
+
+RacerPorter uses **LispWorks CAPI - The Common Application Programming
+Interface (CAPI)** to implement a platform-agnostic GUI; it should run
+on Linux, Mac, and Windows out of the box. Check out [the LispWorks
+CAPI pages](http://www.lispworks.com/products/capi.html) for more
+details about this great cross-platform GUI toolkit.  RacerPorter is
+probably one of the biggest CAPI applications ever written. There is
+no way around CAPI - this will only work with LispWorks.
 
 Here are a few pictures that should give an idea of its capabilities:
 
@@ -63,15 +71,17 @@ Here are a few pictures that should give an idea of its capabilities:
 
 Adjust the logical pathname translations in `sirius-sysdcl.lisp` to
 match your environment. Then, simply do a load, and start the program
-with `(racerporter-dev)` followed by `(sirius::sirius)`. 
+with `(racerporter-dev)` followed by `(sirius::sirius)`.
 
-Edit the profil ("Edit Profil...") to automatically start a [RacerPro 
-executable for your OS](./racer_binaries/), also make sure that the
-`racerlicense.lic` license file gets copied into your home directory
-or the RacerPro application directory. 
+Edit the profile ("Edit Profil..." button) to automatically start a
+[RacerPro executable for your OS](./racer_binaries/) (or use the
+"Start RacerPro" button, followed by "Connect"). Also make sure that
+the `racerlicense.lic` file gets copied into your home directory, or
+the RacerPro application directory. 
 
 Please note that this is an older version of RacerPro, which is
-provided here for convenience in order to get RacerPorter up and
-running quickly.  RacerPro is now called Racer, and is available as
-OpenSource.  You will find examples and the manual on [the Racer
-GitHub repo](https://github.com/ha-mo-we/Racer/) as well. 
+provided here for convenience and testing purposes only, in order to 
+get RacerPorter up and running quickly.  RacerPro is now called Racer,
+and is available as OpenSource.  You will find examples and the manual
+on [the Racer GitHub repo](https://github.com/ha-mo-we/Racer/) as
+well.
