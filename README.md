@@ -1,4 +1,5 @@
-# RacerPorter A Knowledge Base Inspection, Visualization &amp;
+# RacerPorter 
+A Knowledge Base Inspection, Visualization &amp;
 Authoring Workbench for KRSS-Based Description Logic (&amp; OWL)
 Reasoners
 
