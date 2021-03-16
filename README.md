@@ -22,19 +22,20 @@ Even though RacerPorter was primarily developed for Racer / RacerPro,
 and hence contains much custom Racer functionality, it can
 nevertheless be customized for other KRSS-compliant DL reasoners
 easily as well, simply by stripping it down and removing
-Racer-specific functionality (e.g.,
-[MiDeLoRa](https://github.com/lambdamikel/MiDeLoRa)].
+Racer-specific functionality, e.g.,
+[MiDeLoRa](https://github.com/lambdamikel/MiDeLoRa).
 
 RacerPorter was last successfully tested with LispWorks 6.1 & CAPI on
 Windows 10, 64bit, in March 2021. 
 
 RacerPorter uses **LispWorks CAPI - The Common Application Programming
 Interface (CAPI)** to implement a platform-agnostic GUI; it should run
-on Linux, Mac, and Windows out of the box. Check out [the LispWorks
+out of the box on Linux, Mac, and Windows. Check out [the LispWorks
 CAPI pages](http://www.lispworks.com/products/capi.html) for more
 details about this great cross-platform GUI toolkit.  RacerPorter is
-probably one of the biggest CAPI applications ever written. There is
-no way around CAPI - this will only work with LispWorks.
+probably one of the biggest CAPI applications ever written. For
+RacerPorter, there is no way around using CAPI - this will only work 
+with LispWorks. Getting it to run on SBCL and/or CLIM is hopeless. 
 
 Here are a few pictures that should give an idea of its capabilities:
 
